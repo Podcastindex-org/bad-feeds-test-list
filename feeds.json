@@ -1,0 +1,77 @@
+{
+  "name": "Podcast Feed Edge Cases",
+  "version": 1,
+  "feeds": [
+    {
+      "group": [
+        {
+          "type": "oversized",
+          "urls": [
+            "https://www.radiopopolare.it/poplive/onair/podcast_rpondemand.xml",
+            "https://www.omnycontent.com/d/playlist/414edbb4-4b91-4960-8650-ad4000dbc027/6bfa9326-4ee8-410c-82a2-ad56006724fa/216fdea6-d42f-46b7-bba0-ad5600672520/podcast.rss",
+            "https://www.omnycontent.com/d/playlist/8f7208d2-db6e-4bfa-85b5-ad3d00776f1f/a6aa187b-7c39-4572-9d66-ad4d0101abd9/373bab87-443e-48ba-9295-ad4d0101abe7/podcast.rss",
+            "https://omny.fm/shows/newsbreak-2/playlists/podcast.rss",
+            "https://omny.fm/shows/newsbreak-3/playlists/podcast.rss",
+            "https://podcast.biblecast.net.br/recentes",
+            "https://www.sub.fm/archive.xml"
+          ]
+        },
+        {
+          "type": "brokenxml",
+          "urls": [
+            ""
+          ]
+        },
+        {
+          "type": "status5xx",
+          "urls": [
+            "https://cryptocontentcreators.com/feed/podcast",
+            "https://3speak.tv/rss/sassycebuana.xml"
+          ]
+        },
+        {
+          "type": "status4xx",
+          "urls": [
+            "https://anchor.fm/s/549c67ac/podcast/rss",
+            "https://anchor.fm/s/5b2226c0/podcast/rss",
+            "https://feeds.acast.com/public/shows/6094a214f783bb31211261c5",
+            "https://feed.pod.co/the-ladiamond-podcast-show"
+          ]
+        },
+        {
+          "type": "nonresponsive",
+          "urls": [
+            "https://3speak.tv/rss/sassycebuana.xml",
+            "https://3speak.tv/rss/kyyduyen.xml"
+          ]
+        },
+        {
+          "type": "rtlencoding",
+          "urls": [
+            "https://www.awras.com/feed/podcast/"
+          ]
+        },
+        {
+          "type": "cantbereached",
+          "urls": [
+            "https://solarpodcast.nl/feed.xml",
+            "https://azure.ic975.com/feed/climatecampaignintaiwan/",
+            "https://www.ironfistvelvetglove.com.au/feed/podcast/"
+          ]
+        },
+        {
+          "type": "duplicateguids",
+          "urls": [
+            "https://www.castfeedvalidator.com/?url=http://www.truthandright.org/podcast.xml"
+          ]
+        },
+        {
+          "type": "ishtml",
+          "urls": [
+            "http://ww16.waves8.com/chuong-trinh/ky-nang-kinh-doanh/feed/?sub1=20220406-0257-322e-9473-31226fdf03a1"
+          ]
+        }
+      ]
+    }
+  ]
+}
