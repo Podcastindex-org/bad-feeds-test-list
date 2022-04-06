@@ -19,7 +19,8 @@
         {
           "type": "brokenxml",
           "urls": [
-            ""
+            "https://alphafm.com.br/podcast/qt-series/agenda-da-musica/feed/",
+            "https://sputniknews.cn/export/rss2/video/index.xml"
           ]
         },
         {
